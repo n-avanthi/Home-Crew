@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const API_URL = 'http://localhost:5000/api';
-const API_URL = 'https://home-crew-backend.onrender.com';
+const API_URL = 'https://home-crew-backend.onrender.com/api';
 
 // Request queue for handling concurrent requests during token refresh
 let isRefreshing = false;
