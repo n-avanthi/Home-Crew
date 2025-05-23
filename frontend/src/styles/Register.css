@@ -1,0 +1,48 @@
+.register-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 2rem;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h2 {
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.register-container .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-container .form-group,
+.register-container .btn-primary {
+    width: 100%;
+}
+
+.register-container .btn-primary {
+    margin-top: 1rem;
+    max-width: 200px;
+}
+
+.register-container .login-link {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.register-container .login-link a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.register-container .login-link a:hover {
+    text-decoration: underline;
+} 
